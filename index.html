@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preetesh Chaudhary | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#6366f1',
+                        secondary: '#10b981',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-900 text-gray-100 min-h-screen">
+    <custom-navbar></custom-navbar>
+    <code-background></code-background>
+    <custom-cursor></custom-cursor>
+    <main class="relative z-10 container mx-auto px-4 py-12 max-w-6xl pt-24">
+
+        <!-- Hero Section -->
+
+        <section class="mb-20">
+            <div class="flex flex-col md:flex-row gap-12 items-center">
+                <div class="md:w-1/2">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-4">
+                        <span class="text-primary typing-name"></span>
+                    </h1>
+                    <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-secondary typing-title"></h2>
+                    <p class="text-lg mb-8 text-gray-300">
+
+                    <p class="description-text font-mono mb-8">
+                        I’m a passionate IT undergraduate exploring the world of Artificial Intelligence, Data
+                        Analytics, and Full-Stack Development.
+                    </p>
+                    <p class="description-text font-mono mb-10">
+                        With creativity and a problem-solving mindset, I aim to design impactful technologies for a
+                        smarter future.
+                    </p>
+                    <div class="flex flex-row flex-wrap items-center gap-8 mt-4">
+                        <!-- Get In Touch Button -->
+                        <a href="#contact"
+                            class="bg-primary hover:bg-primary-600 text-white text-center py-3 rounded-lg font-medium px-10 text-lg transition-all shadow-lg flex items-center gap-2">
+                            Get In Touch <i data-feather="send"></i>
+                        </a>
+
+                        <!-- View Projects Button -->
+                        <a href="#projects"
+                            class="bg-green-500 hover:bg-green-600 text-white text-center py-3 rounded-lg font-medium px-10 text-lg transition-all shadow-lg flex items-center gap-2">
+                            View Projects <i data-feather="eye"></i>
+                        </a>
+                    </div>
+
+                    <!-- Feather Icons Script -->
+                    <script>
+                        feather.replace();
+                    </script>
+
+
+                </div>
+                <div class="md:w-1/2">
+                    <div class="relative">
+
+                        <div class="relative flex flex-col items-center">
+                            <div class="relative flex flex-col items-center">
+
+                                <img src="1739200318175.jpeg" class="profile-image animate-float mx-auto"
+                                    alt="Preetesh Kumar">
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- About Section -->
+        <section id="about" class="mb-20">
+            <h2 class="text-3xl font-bold mb-8 text-center"><span class="text-primary">About</span> Me</h2>
+            <div class="bg-gray-800 rounded-2xl p-8 shadow-xl">
+                <p class="text-lg mb-6">
+                    I am a passionate IT undergraduate with extensive experience in AI, data analytics, and full-stack
+                    web development.
+                    My expertise spans across modern technologies including Python, Java, Spring Boot, AWS, and Tableau.
+                </p>
+                <p class="text-lg mb-6">
+                    I have successfully completed virtual internships with leading organizations like J.P. Morgan, Tata
+                    Group, Deloitte, and AWS.
+                    My journey includes active participation in prestigious tech events at IITs, where I've demonstrated
+                    strong analytical and problem-solving capabilities.
+                </p>
+                <p class="text-lg">
+                    Beyond technical skills, I'm deeply committed to continuous learning and professional growth.
+                    I actively participate in hackathons, tech communities, and open-source projects to expand my
+                    knowledge and contribute to the tech ecosystem.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="mb-20">
+            <h2 class="text-3xl font-bold mb-8 text-center">
+                Technical <span class="text-secondary">Skills</span>
+            </h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+
+                <!-- Python -->
+                <div
+                    class="card-effect bg-gray-800 p-6 rounded-xl text-center hover:bg-gray-700 transition-all transform hover:-translate-y-2">
+                    <i data-feather="code" class="w-10 h-10 mx-auto mb-4 text-primary"></i>
+                    <h3 class="font-bold mb-2">Python</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                    <p class="text-sm mt-2 text-gray-400">Advanced proficiency</p>
+                </div>
+
+                <!-- Java -->
+                <div
+                    class="bg-gray-800 p-6 rounded-xl text-center hover:bg-gray-700 transition-all transform hover:-translate-y-2">
+                    <i data-feather="cpu" class="w-10 h-10 mx-auto mb-4 text-primary"></i>
+                    <h3 class="font-bold mb-2">Java</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                    <p class="text-sm mt-2 text-gray-400">Proficient in object-oriented programming and backend logic
+                    </p>
+                </div>
+
+                <!-- Spring Boot -->
+                <div
+                    class="bg-gray-800 p-6 rounded-xl text-center hover:bg-gray-700 transition-all transform hover:-translate-y-2">
+                    <i data-feather="database" class="w-10 h-10 mx-auto mb-4 text-primary"></i>
+                    <h3 class="font-bold mb-2">Spring Boot</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                    <p class="text-sm mt-2 text-gray-400">Intermediate knowledge in API development and microservices
+                    </p>
+                </div>
+
+                <!-- AWS -->
+                <div
+                    class="bg-gray-800 p-6 rounded-xl text-center hover:bg-gray-700 transition-all transform hover:-translate-y-2">
+                    <i data-feather="cloud" class="w-10 h-10 mx-auto mb-4 text-primary"></i>
+                    <h3 class="font-bold mb-2">AWS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                    <p class="text-sm mt-2 text-gray-400">Hands-on experience with EC2, S3, and Lambda</p>
+                </div>
+
+                <!-- Tableau -->
+                <div
+                    class="bg-gray-800 p-6 rounded-xl text-center hover:bg-gray-700 transition-all transform hover:-translate-y-2">
+                    <i data-feather="bar-chart-2" class="w-10 h-10 mx-auto mb-4 text-primary"></i>
+                    <h3 class="font-bold mb-2">Tableau</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                    <p class="text-sm mt-2 text-gray-400">Proficient in data visualization and dashboard creation</p>
+                </div>
+
+                <!-- JavaScript -->
+                <div
+                    class="bg-gray-800 p-6 rounded-xl text-center hover:bg-gray-700 transition-all transform hover:-translate-y-2">
+                    <i data-feather="layout" class="w-10 h-10 mx-auto mb-4 text-primary"></i>
+                    <h3 class="font-bold mb-2">JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                    <p class="text-sm mt-2 text-gray-400">Advanced in dynamic web functionality and DOM manipulation</p>
+                </div>
+
+                <!-- Tailwind CSS -->
+                <div
+                    class="bg-gray-800 p-6 rounded-xl text-center hover:bg-gray-700 transition-all transform hover:-translate-y-2">
+                    <i data-feather="wind" class="w-10 h-10 mx-auto mb-4 text-primary"></i>
+                    <h3 class="font-bold mb-2">Tailwind CSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                    <p class="text-sm mt-2 text-gray-400">Proficient in responsive, modern UI design</p>
+                </div>
+
+                <!-- Node.js -->
+                <div
+                    class="bg-gray-800 p-6 rounded-xl text-center hover:bg-gray-700 transition-all transform hover:-translate-y-2">
+                    <i data-feather="server" class="w-10 h-10 mx-auto mb-4 text-primary"></i>
+                    <h3 class="font-bold mb-2">Node.js</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                    <p class="text-sm mt-2 text-gray-400">Intermediate backend development and API integration</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="mb-20 show">
+            <h2 class="text-3xl font-bold mb-8 text-center">Featured <span class="text-primary">Projects</span></h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Project 1 -->
+                <div
+                    class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all transform hover:-translate-y-1">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-secondary">Traffic Violation Detection System</h3>
+                        <p class="text-gray-300 mb-4">AI-powered web app processing video feeds to detect violations
+                            (red-light running, helmet violations) with automated evidence collection.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">YOLOv8</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">FastAPI</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">React</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">PostgreSQL</span>
+                        </div>
+                        <a href="project-details.html" class="text-primary hover:underline flex items-center">
+                            View Project <i data-feather="arrow-right" class="ml-1 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div
+                    class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all transform hover:-translate-y-1">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-secondary">IIT Bombay Demo Website</h3>
+                        <p class="text-gray-300 mb-4">Polished portfolio site for college team with project showcases,
+                            member profiles, events and AI-powered search capabilities.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">Next.js</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">Tailwind</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">Sanity CMS</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">LLM</span>
+                        </div>
+                        <a href="#" class="text-primary hover:underline flex items-center">
+                            View Project <i data-feather="arrow-right" class="ml-1 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div
+                    class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all transform hover:-translate-y-1">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-secondary">BookEasy Chatbot</h3>
+                        <p class="text-gray-300 mb-4">Conversational AI for book discovery with semantic search,
+                            recommendations and reservation system using RAG architecture.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">LLM</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">Pinecone</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">Node.js</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">Websockets</span>
+                        </div>
+                        <a href="#" class="text-primary hover:underline flex items-center">
+                            View Project <i data-feather="arrow-right" class="ml-1 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div
+                    class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all transform hover:-translate-y-1">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-secondary">Arduino Gaming Console</h3>
+                        <p class="text-gray-300 mb-4">Handheld gaming device with classic games (Snake, Tetris) built
+                            with ESP32, TFT display and custom 3D-printed enclosure.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">ESP32</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">Arduino</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">3D Printing</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">Game Dev</span>
+                        </div>
+                        <a href="#" class="text-primary hover:underline flex items-center">
+                            View Project <i data-feather="arrow-right" class="ml-1 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div
+                    class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all transform hover:-translate-y-1">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-secondary">Autonomous RC Boat</h3>
+                        <p class="text-gray-300 mb-4">Remote-controlled boat with GPS waypoint navigation and obstacle
+                            avoidance capabilities using Pixhawk controller.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">Pixhawk</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">GPS</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">IMU</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">MAVLink</span>
+                        </div>
+                        <a href="#" class="text-primary hover:underline flex items-center">
+                            View Project <i data-feather="arrow-right" class="ml-1 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div
+                    class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all transform hover:-translate-y-1">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-secondary">Sand Rover - IIT Kharagpur</h3>
+                        <p class="text-gray-300 mb-4">All-terrain rover with 6WD and traction control system designed
+                            specifically for sand navigation challenges.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">ROS</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">LiDAR</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">BLDC</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">Tracks</span>
+                        </div>
+                        <a href="#" class="text-primary hover:underline flex items-center">
+                            View Project <i data-feather="arrow-right" class="ml-1 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div
+                    class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all transform hover:-translate-y-1">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-secondary">AI Traffic Light System</h3>
+                        <p class="text-gray-300 mb-4">Multi-intersection adaptive signal control using reinforcement
+                            learning to optimize traffic flow and create green corridors.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">Jetson</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">YOLO</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">SUMO</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">RL</span>
+                        </div>
+                        <a href="#" class="text-primary hover:underline flex items-center">
+                            View Project <i data-feather="arrow-right" class="ml-1 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Experience Section -->
+        <section id="experience" class="mb-20">
+            <h2 class="text-3xl font-bold mb-8 text-center">
+                Professional <span class="text-primary">Experience</span>
+            </h2>
+
+            <div class="space-y-8">
+
+                <!-- Experience 1: Deloitte Australia -->
+                <div
+                    class="bg-gray-800 rounded-2xl p-6 shadow-xl hover:shadow-primary/20 transition-all hovered-element">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                        <h3 class="text-xl font-bold text-secondary hovered-element flex items-center gap-2">
+                            <img src="deloitte.png" alt="Deloitte Logo" style="height:1.3em;width:auto;">
+                            Deloitte Australia – Technology Simulation (Virtual)
+                        </h3>
+                        <span class="text-gray-400 hovered-element">May 2025</span>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <div class="bg-primary/20 text-primary text-sm px-3 py-1 rounded-full">
+                            Deloitte Forage
+                        </div>
+                    </div>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li class="hovered-element">Implemented modular programming logic to automate business workflows
+                        </li>
+                        <li class="hovered-element">Developed a prototype demonstrating end-to-end system functionality
+                        </li>
+                        <li class="hovered-element">Integrated APIs and backend services for seamless data communication
+                        </li>
+                        <li class="hovered-element">Applied version control and debugging techniques for reliable
+                            performance</li>
+                    </ul>
+                </div>
+
+                <!-- Experience 2: AWS APAC -->
+                <div
+                    class="bg-gray-800 rounded-2xl p-6 shadow-xl hover:shadow-primary/20 transition-all hovered-element">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                        <h3 class="text-xl font-bold text-secondary hovered-element flex items-center gap-2">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
+                                alt="AWS Logo" style="height:1.2em;width:auto;">
+                            AWS APAC – Solutions Architecture Simulation (Virtual)
+                        </h3>
+                        <span class="text-gray-400 hovered-element">May 2025</span>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <div class="bg-primary/20 text-primary text-sm px-3 py-1 rounded-full">
+                            AWS Forage
+                        </div>
+                    </div>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li class="hovered-element">Designed a scalable and secure cloud hosting architecture using AWS
+                        </li>
+                        <li class="hovered-element">Implemented cost-optimization strategies for resource efficiency
+                        </li>
+                        <li class="hovered-element">Configured network and security settings to ensure reliability</li>
+                        <li class="hovered-element">Documented architecture and deployment plans for maintainability
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Experience 3: JP Morgan -->
+                <div
+                    class="bg-gray-800 rounded-2xl p-6 shadow-xl hover:shadow-primary/20 transition-all hovered-element">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                        <h3 class="text-xl font-bold text-secondary hovered-element flex items-center gap-2">
+                            <img src="jp-morgan.png" alt="JP Morgan Logo" style="height:3.15em;width: 3.1em;;">
+                            J.P. Morgan Software Engineering Skills Learned (Virtual)
+                        </h3>
+                        <span class="text-gray-400 hovered-element">May 2025</span>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <div class="bg-primary/20 text-primary text-sm px-3 py-1 rounded-full">
+                            J.P. Morgan Chase & Co. Forage
+                        </div>
+                    </div>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li class="hovered-element">Developed an interactive client interface using JavaScript and
+                            Python</li>
+                        <li class="hovered-element">Integrated RESTful APIs to visualize live financial data</li>
+                        <li class="hovered-element">Simulated a real-world trading environment to test system
+                            performance</li>
+                        <li class="hovered-element">Enhanced debugging and data handling efficiency in client-server
+                            flow</li>
+                    </ul>
+                </div>
+
+                <!-- Experience 4: Tata Group -->
+                <div
+                    class="bg-gray-800 rounded-2xl p-6 shadow-xl hover:shadow-primary/20 transition-all hovered-element">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                        <h3 class="text-xl font-bold text-secondary hovered-element flex items-center gap-2">
+                            <img src="tata.jpg" alt="Tata Group Logo" style="height:3.2em;width: 3.2em;;">
+                            Tata Group Data Analytics (Virtual)
+                        </h3>
+                        <span class="text-gray-400 hovered-element">May 2025</span>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <div class="bg-primary/20 text-primary text-sm px-3 py-1 rounded-full">
+                            Tata Group Forage
+                        </div>
+                    </div>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li class="hovered-element">Performed EDA using GenAI tools to assess financial risk indicators
+                        </li>
+                        <li class="hovered-element">Proposed a no-code AI model for predicting customer delinquency</li>
+                        <li class="hovered-element">Designed an ethical automated collections strategy using analytics
+                            insights</li>
+                        <li class="hovered-element">Applied data-driven methods for business decision-making</li>
+                    </ul>
+                </div>
+
+                <!-- Experience 5: KIIT Coding Event -->
+                <div
+                    class="bg-gray-800 rounded-2xl p-6 shadow-xl hover:shadow-primary/20 transition-all hovered-element">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                        <h3 class="text-xl font-bold text-secondary hovered-element flex items-center gap-2">
+                            <img src="KIIT_logo.png" alt="KIIT Logo" style="height:2.4em;width:auto;">
+                            Event Organizer & Host – Decode and Dominate
+                        </h3>
+                        <span class="text-gray-400 hovered-element">Feb 2025</span>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <div class="bg-primary/20 text-primary text-sm px-3 py-1 rounded-full">
+                            School of Computer Engineering | KIIT Fest 8.0
+                        </div>
+                    </div>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li class="hovered-element">Organized and hosted the Decode and Dominate coding challenge</li>
+                        <li class="hovered-element">Managed event logistics, judges, and technical operations</li>
+                        <li class="hovered-element">Created engaging, problem-solving rounds for participants</li>
+                        <li class="hovered-element">Enhanced campus culture through innovative technical events</li>
+                    </ul>
+                </div>
+
+                <!-- Experience 6: IIT Bombay -->
+                <div
+                    class="bg-gray-800 rounded-2xl p-6 shadow-xl hover:shadow-primary/20 transition-all hovered-element">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                        <h3 class="text-xl font-bold text-secondary hovered-element flex items-center gap-2">
+                            <img src="iitb.png" alt="IIT Bombay Logo" style="height:3.2em;width: 3.2em;">
+                            IIT Bombay – Blixathon (Kit Mastery) Seniors Category
+                        </h3>
+                        <span class="text-gray-400 hovered-element">Dec 2024</span>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <div class="bg-primary/20 text-primary text-sm px-3 py-1 rounded-full">
+                            IIT Bombay Blix-A-Thon
+                        </div>
+                    </div>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li class="hovered-element">Designed and assembled a functional prototype demonstrating robotics
+                            innovation</li>
+                        <li class="hovered-element">Collaborated in team-based project development and debugging</li>
+                        <li class="hovered-element">Secured Runner-Up position for creative design and technical
+                            execution</li>
+                        <li class="hovered-element">Enhanced embedded systems and hardware integration skills</li>
+                    </ul>
+                </div>
+
+                <!-- Experience 7: KIIT Fest Finalist -->
+                <div
+                    class="bg-gray-800 rounded-2xl p-6 shadow-xl hover:shadow-primary/20 transition-all hovered-element">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                        <h3 class="text-xl font-bold text-secondary hovered-element flex items-center gap-2">
+                            <img src="KIIT_logo.png" alt="KIIT Logo" style="height:2.4em;width:auto;">
+                            KIIT Fest 7.0 Finalist
+                        </h3>
+                        <span class="text-gray-400 hovered-element">Feb 2023</span>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <div class="bg-primary/20 text-primary text-sm px-3 py-1 rounded-full">
+                            KIIT Fest 7.0 | Bhubaneswar
+                        </div>
+                    </div>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li class="hovered-element">Represented institute in national-level coding and robotics
+                            competition</li>
+                        <li class="hovered-element">Secured 2nd Runner-Up position among top-performing teams</li>
+                        <li class="hovered-element">Showcased exceptional debugging and real-time problem-solving skills
+                        </li>
+                        <li class="hovered-element">Demonstrated teamwork and technical leadership under pressure</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        </div>
+        </section>
+        <!-- Achievements Section -->
+        <section id="achievements" class="mb-20">
+            <h2 class="text-3xl font-bold mb-8 text-center">Key <span class="text-secondary">Achievements</span></h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Achievement 1 -->
+                <div class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all">
+                    <img src="image/WhatsApp Image 2025-10-26 at 11.09.12 AM.jpeg" class="w-full h-48 object-cover"
+                        alt="IEEE Project">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Winner, IEEE 2025 Project Expo</h3>
+                        <p class="text-gray-300 mb-4">Secured 1st place at KIIT University for presenting an innovative
+                            AI-based system demonstrating originality, teamwork, and real-world application.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">AI</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">Research</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">Competition</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievement 2 -->
+                <div class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all">
+                    <img src="image/20241219_171721-scaled.jpg" class="w-full h-48 object-cover" alt="Blixathon">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Runner-up, Kit Mastery (Senior)</h3>
+                        <p class="text-gray-300 mb-4">Blixathon, IIT Bombay. Designed and presented a fully functional
+                            prototype showcasing innovation in robotics and embedded systems.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">Robotics</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">Hardware</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">IIT Bombay</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievement 3 -->
+                <div class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all">
+                    <img src="IMG_8198.jpg" class="w-full h-48 object-cover" alt="IoT Competition">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Event Organizer, Decode and Dominate KIIT Fest 8.0</h3>
+                        <p class="text-gray-300 mb-4">Organized a major event featuring puzzle-based quizzes, logical
+                            questions, and a website redesign task for the KIIT portal, enhancing participants'
+                            creativity and technical thinking.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">Event Management</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">Leadership</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">Technical</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievement 4 -->
+                <div class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all">
+                    <img src="Screenshot 2025-10-26 111427.png" class="w-full h-48 object-cover"
+                        alt="Decode and Dominate">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Runner-up, IoT and Competitive Programming Competition, KIIT
+                            Fest</h3>
+                        <p class="text-gray-300 mb-4">Demonstrated strong technical and analytical knowledge in IoT,
+                            electronics, and programming during an intense competitive coding and quiz event.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">IoT</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">Competitive
+                                Programming</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">Electronics</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Achievement 6 -->
+                <div class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all">
+                    <img src="image/Screenshot 2025-10-26 151211.png" class="w-full h-48 object-cover"
+                        alt="Decode and Dominate">
+                    <div class="p-6">
+
+                        <h3 class="text-xl font-bold mb-2">Cleared Round 1, Techfest, IIT Kharagpur (Sand Rover)</h3>
+                        <p class="text-gray-300 mb-4">Qualified in the design and simulation phase of an autonomous
+                            rover challenge, emphasizing mechanical control, system coding, and teamwork.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">Robotics</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">Autonomous Systems</span>
+                            <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">IIT KGP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Certifications Section -->
+        <section class="mb-20">
+            <h2 class="text-3xl font-bold mb-8 text-center">
+                Certifications & <span class="text-primary">Achievements</span>
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Google Cloud Certification -->
+                <!-- Google Cloud Skills Boost Profile -->
+<div class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all transform hover:-translate-y-2">
+  <div class="p-6">
+    <div class="flex items-start gap-6">
+      <img src="https://cdn.worldvectorlogo.com/logos/google-cloud-2.svg" alt="Google Cloud"
+        class="w-16 h-16 object-contain bg-white p-1 rounded-full shadow-md">
+      <div>
+        <h3 class="font-bold text-xl mb-1">Google Cloud Skills</h3>
+        <p class="text-gray-400 mb-2">Google Cloud</p>
+        <a href="https://www.skills.google/public_profiles/f77be697-eb2b-4a39-9d95-db901bcf65fb" target="_blank" class="text-primary underline text-sm">
+          View Public Profile
+        </a>
+        <ul class="space-y-2 text-gray-300 mt-2">
+          <li>Skills: Cloud Fundamentals, GCP Services, Cloud IAM, Security, Practical Labs</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+                <!-- Microsoft Learn Achievements -->
+                <div
+                    class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all transform hover:-translate-y-2">
+                    <div class="p-6">
+                        <div class="flex items-start gap-6">
+                            <img src="https://cdn.worldvectorlogo.com/logos/microsoft-5.svg" alt="Microsoft"
+                                class="w-16 h-16 object-contain bg-white p-1 rounded-full shadow-md">
+                            <div>
+                                <h3 class="font-bold text-xl mb-1">Microsoft Learn Achievements</h3>
+                                <p class="text-gray-400 mb-2">Microsoft Learn</p>
+                                <a href="https://learn.microsoft.com/en-us/users/preeteshkumarchaudhary-0149/achievements?tab=tab-courses"
+                                    target="_blank" class="text-primary underline text-sm">
+                                    View Public Profile
+                                </a>
+                                <ul class="space-y-2 text-gray-300 mt-2">
+                                    <li>Skills: Azure, Power Platform, Microsoft 365, AI, Cloud Fundamentals,
+                                        Automation, Digital Skills, Data Analysis</li>
+                                    <li>Email: <span class="text-primary">preetesh4153@gmail.com</span></li>
+                                    <li class="text-xs">Badges: 51 | Trophies: 17 | XP: 871,875</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Cisco Certification -->
+                <div
+                    class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all transform hover:-translate-y-2">
+                    <div class="p-6">
+                        <div class="flex items-start gap-6">
+                            <img src="https://cdn.worldvectorlogo.com/logos/cisco-2.svg" alt="Cisco"
+                                class="w-16 h-16 object-contain bg-white p-1 rounded-full shadow-md">
+                            <div>
+                                <h3 class="font-bold text-xl mb-1">Data Science Essentials With Python</h3>
+                                <p class="text-gray-400 mb-2">Cisco Networking Academy</p>
+                                <a href="https://www.credly.com/earner/earned/badge/c31834f3-fd8c-4d5b-bc8b-90fb2bd4a64a"
+                                    target="_blank" class="text-primary underline text-sm">See Credential</a>
+                                <ul class="space-y-2 text-gray-300 mt-2">
+                                    <li>Skills: Data Visualization, Pandas, Matplotlib, Jupyter Notebook</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Deloitte Forage -->
+                <div
+                    class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all transform hover:-translate-y-2">
+                    <div class="p-6">
+                        <div class="flex items-start gap-6">
+                            <img src="deloitte.png" alt="Deloitte"
+                                class="w-16 h-16 object-contain bg-white p-1 rounded-full shadow-md">
+                            <div>
+                                <h3 class="font-bold text-xl mb-1">Data Analytics Job Simulation</h3>
+                                <p class="text-gray-400 mb-2">Deloitte Forage</p>
+                                <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_9KK2rh8uLBp4AekuY_1749697987934_completion_certificate.pdf"
+                                    target="_blank" class="text-primary underline text-sm">See Credential</a>
+                                <ul class="space-y-2 text-gray-300 mt-2">
+                                    <li>Skills: Data Analysis, Interpretation, Problem Solving, Business Intelligence
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IBM Certification -->
+                <div
+                    class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all transform hover:-translate-y-2">
+                    <div class="p-6">
+                        <div class="flex items-start gap-6">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM"
+                                class="w-16 h-16 object-contain bg-white p-1 rounded-full shadow-md">
+                            <div>
+                                <h3 class="font-bold text-xl mb-1">Enterprise Data Science in Practice</h3>
+                                <p class="text-gray-400 mb-2">IBM Professional Certificate</p>
+                                <a href="https://www.credly.com/earner/earned/badge/f5eb54cb-030c-4b0e-bc13-000d2c85af8f"
+                                    target="_blank" class="text-primary underline text-sm">See Credential</a>
+                                <ul class="space-y-2 text-gray-300 mt-2">
+                                    <li>Skills: Artificial Intelligence, Deep Learning, Computer Vision, Chatbots</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IBM AI Fundamentals -->
+                <div
+                    class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all transform hover:-translate-y-2">
+                    <div class="p-6">
+                        <div class="flex items-start gap-6">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM"
+                                class="w-16 h-16 object-contain bg-white p-1 rounded-full shadow-md">
+                            <div>
+                                <h3 class="font-bold text-xl mb-1">Artificial Intelligence Fundamentals</h3>
+                                <p class="text-gray-400 mb-2">IBM Professional Certificate</p>
+                                <a href="https://www.credly.com/earner/earned/badge/60c3d97e-401d-42d4-80de-a0f389bfdb07"
+                                    target="_blank" class="text-primary underline text-sm">See Credential</a>
+                                <ul class="space-y-2 text-gray-300 mt-2">
+                                    <li>Skills: AI Principles, Chatbots, Computer Vision, IBM Cloud</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IBM ML for Data Science -->
+                <div
+                    class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all transform hover:-translate-y-2">
+                    <div class="p-6">
+                        <div class="flex items-start gap-6">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM"
+                                class="w-16 h-16 object-contain bg-white p-1 rounded-full shadow-md">
+                            <div>
+                                <h3 class="font-bold text-xl mb-1">Machine Learning for Data Science Projects</h3>
+                                <p class="text-gray-400 mb-2">IBM Professional Certificate</p>
+                                <a href="https://www.credly.com/earner/earned/badge/cac5a964-03c5-4699-9cf5-781fe7c27fe8"
+                                    target="_blank" class="text-primary underline text-sm">See Credential</a>
+                                <ul class="space-y-2 text-gray-300 mt-2">
+                                    <li>Skills: Data Modeling, Feature Engineering, Model Training, Hyperparameter
+                                        Optimization</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- JP Morgan Forage -->
+                <div
+                    class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all transform hover:-translate-y-2">
+                    <div class="p-6">
+                        <div class="flex items-start gap-6">
+                            <img src="jp-morgan.png" alt="JP Morgan"
+                                class="w-16 h-16 object-contain bg-white p-1 rounded-full shadow-md">
+                            <div>
+                                <h3 class="font-bold text-xl mb-1">Software Engineering JS</h3>
+                                <p class="text-gray-400 mb-2">J.P. Morgan Forage</p>
+                                <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Sj7temL583QAYpHXD/E6McHJDKsQYh79moz_Sj7temL583QAYpHXD_9KK2rh8uLBp4AekuY_1749633778634_completion_certificate.pdf"
+                                    target="_blank" class="text-primary underline text-sm">See Credential</a>
+                                <ul class="space-y-2 text-gray-300 mt-2">
+                                    <li>Skills: JavaScript, RESTful APIs, Client-Server Interaction, Debugging</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tata Forage -->
+                <div
+                    class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all transform hover:-translate-y-2">
+                    <div class="p-6">
+                        <div class="flex items-start gap-6">
+                            <img src="tata.jpg" alt="Tata Group"
+                                class="w-16 h-16 object-contain bg-white p-1 rounded-full shadow-md">
+                            <div>
+                                <h3 class="font-bold text-xl mb-1">GenAI Powered Data Analytics</h3>
+                                <p class="text-gray-400 mb-2">Tata Group Forage</p>
+                                <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ifobHAoMjQs9s6bKS/gMTdCXwDdLYoXZ3wG_ifobHAoMjQs9s6bKS_9KK2rh8uLBp4AekuY_1749698893391_completion_certificate.pdf"
+                                    target="_blank" class="text-primary underline text-sm">See Credential</a>
+                                <ul class="space-y-2 text-gray-300 mt-2">
+                                    <li>Skills: GenAI, Data Analytics, No-Code Models, Risk Analysis</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- UiPath -->
+                <div
+                    class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all transform hover:-translate-y-2">
+                    <div class="p-6">
+                        <div class="flex items-start gap-6">
+                            <img src="UiPath-Logo.png" alt="UiPath"
+                                class="w-16 h-16 object-contain bg-white p-1 rounded-full shadow-md">
+                            <div>
+                                <h3 class="font-bold text-xl mb-1">Automation Implementation Methodology</h3>
+                                <p class="text-gray-400 mb-2">UiPath Academy</p>
+                                <a href="https://www.linkedin.com/in/preetesh-chaudhary-75621a1b0/details/certifications/1755459935178/single-media-viewer?type=DOCUMENT&profileId=ACoAADEncLIBI6gud9SaSasDJsBEz2CbUDBLdnU"
+                                    target="_blank" class="text-primary underline text-sm">See Credential</a>
+                                <ul class="space-y-2 text-gray-300 mt-2">
+                                    <li>Skills: RPA, Automation Design, Implementation Strategy</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <!-- Unstop National Space Hackathon -->
+                <!-- National Space Hackathon 2025 (Unstop + IIT Delhi Collab) -->
+                <div
+                    class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all transform hover:-translate-y-2">
+                    <div class="p-6">
+                        <div class="flex items-start gap-6">
+                            <!-- Unstop logo -->
+                            <img src="Unstop-Logo-Blue-Extra-Large.jpg" alt="Unstop"
+                                class="w-16 h-16 object-contain bg-white p-1 rounded-full shadow-md">
+                            <!-- IIT Delhi logo -->
+                            <img src="iitd.png" alt="IIT Delhi"
+                                class="w-16 h-16 object-contain bg-white p-1 rounded-full shadow-md">
+                            <div>
+                                <h3 class="font-bold text-xl mb-1">National Space Hackathon 2025</h3>
+                                <p class="text-gray-400 mb-2">Unstop • IIT Delhi</p>
+                                <a href="https://unstop.com/certificate-preview/d3d17e6f-b1ce-4be5-ab51-c7c8647584ae"
+                                    target="_blank" class="text-primary underline text-sm">See Credential</a>
+                                <ul class="space-y-2 text-gray-300 mt-2">
+                                    <li>Skills: Hackathon Participation, Teamwork, Space Technology Concepts</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- KIIT Web Development Society -->
+                <div
+                    class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all transform hover:-translate-y-2">
+                    <div class="p-6">
+                        <div class="flex items-start gap-6">
+                            <img src="KIIT_logo.png" alt="KIIT"
+                                class="w-16 h-16 object-contain bg-white p-1 rounded-full shadow-md">
+                            <div>
+                                <h3 class="font-bold text-xl mb-1">Konnexions IT & Web Development Society</h3>
+                                <p class="text-gray-400 mb-2">KIIT Student Activity Centre</p>
+                                <a href="https://drive.google.com/drive/folders/1DrKvNdHXp_8_rWRjxyfY886X67uhhZrT"
+                                    target="_blank" class="text-primary underline text-sm">See Credential</a>
+                                <ul class="space-y-2 text-gray-300 mt-2">
+                                    <li>Skills: HTML, CSS, JavaScript, Web Project Management</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IIT Bhubaneswar Pravaah '25 -->
+                <div
+                    class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all transform hover:-translate-y-2">
+                    <div class="p-6">
+                        <div class="flex items-start gap-6">
+                            <img src="iit bhu.png" alt="IIT Bhubaneswar"
+                                class="w-16 h-16 object-contain bg-white p-1 rounded-full shadow-md">
+                            <div>
+                                <h3 class="font-bold text-xl mb-1">Pravaah '25 Soccer Tournament</h3>
+                                <p class="text-gray-400 mb-2">IIT Bhubaneswar</p>
+                                <a href="https://www.linkedin.com/in/preetesh-chaudhary-75621a1b0/details/certifications/1746721517633/single-media-viewer?type=DOCUMENT&profileId=ACoAADEncLIBI6gud9SaSasDJsBEz2CbUDBLdnU"
+                                    target="_blank" class="text-primary underline text-sm">See Credential</a>
+                                <ul class="space-y-2 text-gray-300 mt-2">
+                                    <li>Skills: Arduino IDE, Embedded Systems, Robotics</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- KIIT Fest 8.0 -->
+                <div
+                    class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all transform hover:-translate-y-2">
+                    <div class="p-6">
+                        <div class="flex items-start gap-6">
+                            <img src="KIIT_logo.png" alt="KIIT"
+                                class="w-16 h-16 object-contain bg-white p-1 rounded-full shadow-md">
+                            <div>
+                                <h3 class="font-bold text-xl mb-1">KiiT Fest 8.0</h3>
+                                <p class="text-gray-400 mb-2">Kalinga Institute of Industrial Technology (KIIT),
+                                    Bhubaneswar</p>
+                                <a href="https://www.linkedin.com/in/preetesh-chaudhary-75621a1b0/details/certifications/1755462170253/single-media-viewer?type=IMAGE&profileId=ACoAADEncLIBI6gud9SaSasDJsBEz2CbUDBLdnU"
+                                    target="_blank" class="text-primary underline text-sm">See Credential</a>
+                                <ul class="space-y-2 text-gray-300 mt-2">
+                                    <li>Skills: Event Participation, Coding, Teamwork</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blix Robotics, IIT Bombay Techfest -->
+                <div
+                    class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all transform hover:-translate-y-2">
+                    <div class="p-6">
+                        <div class="flex items-start gap-6">
+                            <!-- Blix logo first -->
+                            <img src="blix logo.png" alt="Blix Education"
+                                class="w-16 h-16 object-contain bg-white p-1 rounded-full shadow-md">
+                            <!-- IIT Bombay logo second (optional: add another img beside or below Blix for double-brand) -->
+                            <img src="iitb.png" alt="IIT Bombay"
+                                class="w-16 h-16 object-contain bg-white p-1 rounded-full shadow-md">
+                            <div>
+                                <h3 class="font-bold text-xl mb-1">Blixathon (Techfest) Runner-up</h3>
+                                <p class="text-gray-400 mb-2">Blix Education • IIT Bombay</p>
+                                <a href="https://www.linkedin.com/in/preetesh-chaudhary-75621a1b0/details/certifications/1746719967192/single-media-viewer?type=DOCUMENT&profileId=ACoAADEncLIBI6gud9SaSasDJsBEz2CbUDBLdnU"
+                                    target="_blank" class="text-primary underline text-sm">See Credential</a>
+                                <ul class="space-y-2 text-gray-300 mt-2">
+                                    <li>Skills: Robotic Design, Team Collaboration, Electronics</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- KIIT Fest 7.0 (Tech Royale) -->
+                <div
+                    class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all transform hover:-translate-y-2">
+                    <div class="p-6">
+                        <div class="flex items-start gap-6">
+                            <img src="KIIT_logo.png" alt="KIIT"
+                                class="w-16 h-16 object-contain bg-white p-1 rounded-full shadow-md">
+                            <div>
+                                <h3 class="font-bold text-xl mb-1">Tech Royale • KIIT FEST 7.0</h3>
+                                <p class="text-gray-400 mb-2">Kalinga Institute of Industrial Technology (KIIT),
+                                    Bhubaneswar</p>
+                                <a href="https://www.linkedin.com/in/preetesh-chaudhary-75621a1b0/details/certifications/1746720568778/single-media-viewer?type=DOCUMENT&profileId=ACoAADEncLIBI6gud9SaSasDJsBEz2CbUDBLdnU"
+                                    target="_blank" class="text-primary underline text-sm">See Credential</a>
+                                <ul class="space-y-2 text-gray-300 mt-2">
+                                    <li>Skills: Arduino IDE, Robotics, Console Game Development</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- HackerRank (Java) -->
+                <div
+                    class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all transform hover:-translate-y-2">
+                    <div class="p-6">
+                        <div class="flex items-start gap-6">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png"
+                                alt="HackerRank" class="w-16 h-16 object-contain bg-white p-1 rounded-full shadow-md">
+                            <div>
+                                <h3 class="font-bold text-xl mb-1">Java (Certificate)</h3>
+                                <p class="text-gray-400 mb-2">HackerRank</p>
+                                <a href="https://www.hackerrank.com/certificates/iframe/dabba64948d3" target="_blank"
+                                    class="text-primary underline text-sm">See Credential</a>
+                                <ul class="space-y-2 text-gray-300 mt-2">
+                                    <li>Skills: Core Java, OOP, Data Structures, Problem Solving</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- HackerRank (Python) -->
+                <div
+                    class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all transform hover:-translate-y-2">
+                    <div class="p-6">
+                        <div class="flex items-start gap-6">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png"
+                                alt="HackerRank" class="w-16 h-16 object-contain bg-white p-1 rounded-full shadow-md">
+                            <div>
+                                <h3 class="font-bold text-xl mb-1">Python (Certificate)</h3>
+                                <p class="text-gray-400 mb-2">HackerRank</p>
+                                <a href="https://www.hackerrank.com/certificates/8e7f1df88520" target="_blank"
+                                    class="text-primary underline text-sm">See Credential</a>
+                                <ul class="space-y-2 text-gray-300 mt-2">
+                                    <li>Skills: Python, Data Analysis, Scripting, Algorithms</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SQL Intermediate -->
+                <div
+                    class="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-primary/20 transition-all transform hover:-translate-y-2">
+                    <div class="p-6">
+                        <div class="flex items-start gap-6">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png"
+                                alt="HackerRank" class="w-16 h-16 object-contain bg-white p-1 rounded-full shadow-md">
+                            <div>
+                                <h3 class="font-bold text-xl mb-1">SQL (Intermediate) Certificate</h3>
+                                <p class="text-gray-400 mb-2">HackerRank</p>
+                                <a href="https://www.hackerrank.com/certificates/10fd30612619" target="_blank"
+                                    class="text-primary underline text-sm">See Credential</a>
+                                <ul class="space-y-2 text-gray-300 mt-2">
+                                    <li>Skills: Intermediate SQL, Joins, Query Optimization</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="mb-20">
+            <h2 class="text-3xl font-bold mb-8 text-center">Get In <span class="text-secondary">Touch</span></h2>
+
+            <div class="bg-gray-800 rounded-2xl p-8 shadow-xl">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Contact Information</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-4">
+                                <div class="bg-primary/20 text-primary p-2 rounded-lg">
+                                    <i data-feather="mail" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium">Email</h4>
+                                    <a href="mailto:preetesh4153@gmail.com"
+                                        class="text-gray-300 hover:text-primary transition-colors">
+                                        preetesh4153@gmail.com
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="bg-primary/20 text-primary p-2 rounded-lg">
+                                    <i data-feather="phone" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium">Phone</h4>
+                                    <a href="tel:+919372874710"
+                                        class="text-gray-300 hover:text-primary transition-colors">
+                                        +91 9372874710
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="bg-primary/20 text-primary p-2 rounded-lg">
+                                    <i data-feather="map-pin" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium">Location</h4>
+                                    <p class="text-gray-300">Mumbai, India</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Send Me a Message</h3>
+                        <form class="space-y-4">
+                            <div>
+                                <label for="name" class="block mb-1 text-sm font-medium">Name</label>
+                                <input type="text" id="name"
+                                    class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+                            </div>
+
+                            <div>
+                                <label for="email" class="block mb-1 text-sm font-medium">Email</label>
+                                <input type="email" id="email"
+                                    class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+                            </div>
+
+                            <div>
+                                <label for="message" class="block mb-1 text-sm font-medium">Message</label>
+                                <textarea id="message" rows="4"
+                                    class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"></textarea>
+                            </div>
+
+                            <button type="submit"
+                                class="bg-primary hover:bg-primary-600 text-white px-6 py-3 rounded-lg font-medium transition-all">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <custom-footer class="animate-on-scroll"></custom-footer>
+    <!-- Animate on Scroll Library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+    </script>
+    <script src="components/codeBackground.js"></script>
+    <script src="components/cursor.js"></script>
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+
+        // Initialize Vanta.js
+        VANTA.NET({
+            el: "#vanta-bg",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x6366f1,
+            backgroundColor: 0x111827,
+            points: 12.00,
+            maxDistance: 22.00,
+            spacing: 18.00
+        });
+    </script>
+</body>
+
+</html>
